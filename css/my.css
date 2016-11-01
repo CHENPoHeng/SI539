@@ -1,0 +1,17 @@
+    
+body {
+    font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: ;
+}
+
+.profile {
+    width: 180px;
+    display: block;
+    margin: 0 auto;
+}
+
+.jumbotron {
+
+    background-image: url(../img/bg.jpg);
+    background-size: cover; 
+}
