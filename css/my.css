@@ -12,9 +12,31 @@ a:focus {
    color: #1d9b6c;
 }
 
+/* index intro text */
+.mymediaquery {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  /*.mymediaquery > h1 > span: {
+    display: none;
+  }*/
+  .mymediaquery > h1, h2 {
+    /*height: 3em;*/
+    /*line-height: 3em;*/
+    color: #1d9b6c;
+  }
+}
+
+
+.about-me, .project-text {
+  font-size: 18px;
+}
+
 /* display the current page */
 #current-page {
     color: #1d9b6c;
+    font-weight: bold;
 }
 
 /* for the profile pic size*/
